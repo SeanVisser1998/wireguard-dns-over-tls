@@ -37,6 +37,7 @@ sudo apt install wireguard -y
 
 #### Unbound
 ```
+curl https://www.internic.net/domain/named.root -O /var/lib/unbound/root.hints
 sudo cp -a /wireguard-dns-over-tls/unbound/unbound.conf.d/. /etc/unbound/unbound.conf.d/
 ```
 
