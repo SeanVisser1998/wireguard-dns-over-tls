@@ -54,4 +54,4 @@ Looking back on the project, there are a couple of improvements that can be made
 - Supporting of IPv6
 - Expanding DNS list to include more DNS providers
 
-Other improvements include the use of DNSCrypt to enhance DNS privacy even further
+Other improvements include the use of DNSCrypt to enhance DNS privacy even further, however I currently see no use for this given the use case.
