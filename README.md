@@ -48,8 +48,10 @@ wg genkey | (umask 077 && tee /etc/wireguard/keys/wg0.priv) | wg pubkey > /etc/w
 ```
 
 ### Project improvements:
-Looking back on the project, there are a couple of improvements that can be made to enhance the effectiveness of this project. I intend to implement the following enhancements in the near future:
+Looking back on the project, there are a couple of improvements that can be made to enhance this project. I intend to implement the following enhancements in the near future:
 
 - ZeroConfig setup using cloud-init
 - Supporting of IPv6
 - Expanding DNS list to include more DNS providers
+
+Other improvements include the use of DNSCrypt to enhance DNS privacy even further
