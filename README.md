@@ -9,7 +9,7 @@
 ### Use cases
 This project was designed to cover the following use case:
 - Protect clients from MITM attacks by bad actor on local network (e.g. public wifi)
-- Protect clients from DNS poisining by bad actors on local and upstream networks
+- Protect clients from DNS poisoning by bad actors on local and upstream networks
 - Protect clients from DNS query interception by bad actors on local and upstream networks
 
 ### Technical information
